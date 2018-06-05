@@ -1,0 +1,32 @@
+﻿import-module ServerManager
+Add-WindowsFeature File-Services, `
+FS-FileServer, `
+Web-Http-Redirect, `
+Web-DAV-Publishing, `
+Web-Custom-Logging, `
+Web-Log-Libraries, `
+Web-ODBC-Logging, `
+Web-Request-Monitor, `
+Web-Http-Tracing, `
+Web-Dyn-Compression, `
+Web-Digest-Auth, `
+Web-IP-Security, `
+Web-Windows-Auth, `
+Web-Net-Ext, `
+Web-Asp-Net, `
+Web-CGI, `
+Web-Includes, `
+Web-WebSockets, `
+Web-Ftp-Server, `
+Web-Ftp-Service, `
+Web-Mgmt-Compat, `
+Web-Metabase, `
+Web-Scripting-Tools, `
+NET-Framework-Features, `
+NET-Framework-Core, `
+NET-HTTP-Activation, `
+PowerShell-V2, `
+WAS, `
+WAS-Process-Model, `
+WAS-NET-Environment, `
+WAS-Config-APIs
